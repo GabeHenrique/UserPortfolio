@@ -13,7 +13,7 @@ const Experience = (props) => (
             </Col>
 
             <Col s={10} m={10}>
-                <p><b>{props.title} na empresa <span className="grey darken-2 white-text">{props.company}</span></b></p>
+                <p><b>{props.title} na empresa {props.company}</b></p>
                 <p>{props.description}</p>
             </Col>
         </Row>

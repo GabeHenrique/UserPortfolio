@@ -17,7 +17,7 @@ const Contact = () => (
                     <Input placeholder="exemplo@email.com.br" type="email" label="Email" s={12} />
                     <Input placeholder="Deixe sua mensagem" label="Mensagem" s={12} />
                     <Col s={12} m={12}>
-                        <Button waves='light' className="right grey darken-2">SEND</Button>
+                        <Button waves='light' className="right blue darken-6">Enviar</Button>
                     </Col>
                 </Row>
             </Card>
