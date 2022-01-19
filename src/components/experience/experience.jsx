@@ -5,6 +5,7 @@ import { Row, Col, Card } from 'react-materialize';
 
 // Recebe os parâmetros passadados para o Componenet na variável props
 const Experience = (props) => (
+    <section>
     <Card>
         <Row>
             <Col s={2} m={2}>
@@ -18,6 +19,10 @@ const Experience = (props) => (
             </Col>
         </Row>
     </Card>
+        <div>
+
+        </div>
+    </section>
 );
 
 export default Experience;

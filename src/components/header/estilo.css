@@ -1,0 +1,8 @@
+#logotipo {
+    visibility: hidden;
+}
+@media(max-width: 993px) {
+    #logotipo {
+        visibility: visible;
+    }
+}
