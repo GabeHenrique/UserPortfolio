@@ -7,7 +7,7 @@ import "./estilo.css"
 const Header = () => (
     <Row>
         <Navbar className="light-blue darken-6 navbar--left-aligned-links"
-            brand={<div className="logo right-align" id="logotipo" href="/">Portfólio Dev</div>}
+            brand={<a className="logo right-align" id="logotipo" href="/">Portfólio Dev</a>}
             id="mobile-nav"
             options={{
                 draggable: true,
@@ -21,7 +21,7 @@ const Header = () => (
                 preventScrolling: true
             }}
         >
-            <NavItem onClick={function noRefCheck(){}}>Home</NavItem>
+            <NavItem href="/">Home</NavItem>
             <NavItem href="/contact">Contato</NavItem>
         </Navbar>
     </Row>

@@ -14,10 +14,10 @@ const Contact = () => (
             <h5>Contato</h5>
             <Card>
                 <Row>
-                    <Input placeholder="exemplo@email.com.br" type="email" label="Email" s={12}></Input>
-                    <Input placeholder="Deixe sua mensagem" label="Mensagem" s={12}></Input>
+                    <Input placeholder="exemplo@email.com.br" type="email" label="Email" s={12} />
+                    <Input placeholder="Deixe sua mensagem" label="Mensagem" s={12} />
                     <Col s={12} m={12}>
-                        <Button waves='light' className="right blue darken-6">Enviar</Button>
+                        <Button waves='light' className="right light-blue darken-6">Enviar</Button>
                     </Col>
                 </Row>
             </Card>
