@@ -1,9 +1,7 @@
 // Importando o React
 import React from "react";
-// Importando os components necessários da lib react-materialize
-
-
-// importando a foto do usuário (note que depois podemos usa-la facilmente chamando apenas avatar ao invés do caminho completo)
+import { Card } from "react-materialize";
+import { Row, Col } from "react-materialize";
 import avatar from '../../images/avatar.jpeg';
 
 const UserProfile = () => (
@@ -15,7 +13,7 @@ const UserProfile = () => (
         </Row>
         <Row className="center-align">
             <h5 >Gabriel Rodrigues</h5>
-            <p className="blue darken-6 white-text">Estagiário de P&D</p>
+            <p className="blue darken-6 white-text">Desenvolvedor Backend</p>
         </Row>
     </Card>
 );

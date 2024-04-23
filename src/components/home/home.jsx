@@ -2,12 +2,13 @@ import React from "react";
 import { Row, Col, Card } from 'react-materialize';
 import UserProfile from '../user_profile/user_profile'
 import Experience from '../experience/experience'
-import company_avatar from '../../images/uno.jpg';
+import uno_avatar from '../../images/uno.jpg';
+import nuvy_avatar from '../../images/nuvy.jpeg';
 
 const Home = () => (
     <Row>
         <Col m={3} s={12}>
-             <UserProfile />
+            <UserProfile />
         </Col>
         <Col m={8} s={12}>
             <h5 className="subtitle">Sobre Mim</h5>
@@ -22,9 +23,19 @@ const Home = () => (
 
             {/* Passando os parâmetros title, company, description e avatar para o component Experience */}
             <Experience title="Estágiário de Pesquisa e Desenvolvimento"
-                        company="UNO Soluções Integradas"
-                        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut laborevoluptate velit esse cillum dolore eu fugiat id est laborum."
-                        avatar={company_avatar}
+                company="UNO Soluções Integradas"
+                description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut laborevoluptate velit esse cillum dolore eu fugiat id est laborum."
+                avatar={uno_avatar}
+            />
+            <Experience title="Desenvolvedor Backend"
+                company="UNO Soluções Integradas"
+                description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut laborevoluptate velit esse cillum dolore eu fugiat id est laborum."
+                avatar={uno_avatar}
+            />
+            <Experience title="Desenvolvedor Backend"
+                company="Nuvy ERP"
+                description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut laborevoluptate velit esse cillum dolore eu fugiat id est laborum."
+                avatar={nuvy_avatar}
             />
         </Col>
     </Row>

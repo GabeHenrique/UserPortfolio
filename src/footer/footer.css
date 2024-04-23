@@ -1,0 +1,6 @@
+.footer {
+    position: fixed; /* Define a posição fixa */
+    bottom: 0; /* Define a distância do rodapé ao fundo da página */
+    width: 100%; /* Define a largura para ocupar toda a largura da página */
+  }
+  
